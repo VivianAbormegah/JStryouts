@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ body{
+    width: 100%;
+    height: 100vh;
+     display: flex;
+     margin-top: 30px;
+      justify-content: center;
+    align-items: center;  
+    background: url(1.jpg);
+    background-size: cover;
+    background-position: center;  
+} 
+.countdowntimercontainer{
+    
+    width: 100%; 
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: wrap;
+       
+}
+.countdowntimercontainer div{
+    width: 25%;
+    text-align: center;
+    font-size: 50px;
+
+}
